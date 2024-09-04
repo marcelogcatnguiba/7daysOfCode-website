@@ -1,0 +1,78 @@
+:root
+{
+    --nav-font-family: 'Inter', sans-serif;
+    --nav-font-size: 16px;
+    --nav-font-wieght: medium;
+    --nav-line-height: 24px;
+    --font-color: #667085;
+    --font-color-logo: #3a404e;
+}
+
+.cont__navegacao
+{
+    display: flex;
+    padding: 18px 9%; 
+    justify-content: space-between;
+    
+    /* background-color: #ccc; */
+
+    font-family: var(--nav-font-family);
+    font-size: var(--nav-font-size);
+    font-family: var(--nav-font-wieght);
+    line-height: var(--nav-line-height);
+
+    color: var(--font-color);
+}
+
+.cont__navegacao__logo
+{
+    display: flex;
+    align-items: center;
+}
+
+.cont__navegacao__logo__p
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    color: var(--font-color-logo);    
+}
+
+.cont__navegacao__link
+{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: start;
+
+    padding-right: 20%;
+}
+
+.cont__navegacao__login
+{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    box-sizing: content-box;
+
+    font-family: var(--nav-font-family);
+    font-size: var(--nav-font-size);
+    font-family: var(--nav-font-wieght);
+    line-height: var(--nav-line-height);
+
+    /* background-color: yellow; */
+}
+
+.cont__navegacao__login__cadastrar
+{
+    background-color: #8e2424;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px 18px;
+}
+
+.vis__color:visited
+{
+    color: var(--font-color);
+}
